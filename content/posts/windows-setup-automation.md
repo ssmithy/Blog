@@ -4,7 +4,7 @@ date: 2023-02-03
 draft: true
 ---
 
-# How to Automate Windows Configuration after Installation
+## How to Automate Windows Configuration after Installation
 
 As a programmer I always like my Windows installation setup in a certain way.
 
@@ -14,7 +14,7 @@ One of the marks of a good developer in the Pragmatic Programmer is, if you spil
 
 This guide aims to solve just that problem.
 
-## Chocolatey
+### Chocolatey
 
 Firstly, big love for Chocolatey - this is a big chunk of the project. After installing chocolatey:
 
@@ -29,7 +29,7 @@ choco install 'Application Name' -y
 
 (the -y is to say yes to all question / silent install).
 
-## Settings
+### Settings
 
 After that we'll need to configure various windows related settings:
 
@@ -38,7 +38,7 @@ After that we'll need to configure various windows related settings:
 
 And of course the most important, Darkmode
 
-## File and Folders 
+### File and Folders 
 
 I also like to move my User Folders (Desktop, Documents, Source code) to a secondary harddrive.
 This allows the applications on the main disk to grow at will
