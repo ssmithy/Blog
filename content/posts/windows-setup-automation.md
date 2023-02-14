@@ -6,41 +6,51 @@ draft: true
 
 ## How to Automate Windows Configuration after Installation
 
-As a programmer I always like my Windows installation setup in a certain way.
+As programmers, we like our development environments setup in a particular way.
 
 There's lots of software to install and lots of settings and preferences to configure.
 
-One of the marks of a good developer in the Pragmatic Programmer is, if you spilled a coffee on your laptop and had to buy another, (search quote) how quickly could you get your machine back up and running?
+One of the marks of a good developer in the [insert book (pragmatic programmer or clean RCM)] is:
+> if you spilled a drink on your laptop and had to buy another, (search quote) how quickly could you get your machine back up and running?
 
-This guide aims to solve just that problem.
+This post aims to explore that problem and potential solutions.
+
+I'm a Microsoft Windows user, so this guide will focus there. These ideas and general concepts can be applied to other systems though - i.e. bash script on linux?
+PowerShell is a preinstalled and very useful tool on Windows and that's the tool we'll mostly be using.
 
 ### Chocolatey
 
-Firstly, big love for Chocolatey - this is a big chunk of the project. After installing chocolatey:
+Big love for [Chocolatey.org](https://chocolatey.org/)! This project simplifies a big chunk of the setup process.
+
+Chocolatey is a package manager manager for Windows that allows you to automate the installation of a lot of software packages.
+
+Firstly, we need to install Chocolatey using an Administrator PowerShell:
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-We can then install 95% of applications using this package manager with:
+
+Installing applications is then a trivial task of calling the `choco install`.
 
 ```
-choco install 'Application Name' -y
+choco install 'Application Package Name' -y
 ```
 
-(the -y is to say yes to all question / silent install).
+(The `-y` is to say yes to all question / silent install).
 
 ### Settings
 
-After that we'll need to configure various windows related settings:
+After that we'll need to configure various OS related settings
 
-- Power Settings
-- Configure Taskbar and Start menu
+Power Settings
 
-And of course the most important, Darkmode
+Taskbar
 
-### File and Folders 
+And of course the most important, **Dark Mode**
 
-I also like to move my User Folders (Desktop, Documents, Source code) to a secondary harddrive.
+### File and Folders
+
+I also like to move my User Folders (Desktop, Documents, Source code) to a secondary hard drive.
 This allows the applications on the main disk to grow at will
 
 <!-- ## Configure Applications
@@ -51,6 +61,3 @@ Some applications however such as OneDrive backup locations need configuring.
 
 Figure out how to do this AutoHotkey??
  -->
-
-
-
