@@ -16,7 +16,7 @@ One of the marks of a good developer in the [insert book (pragmatic programmer o
 This post aims to explore that problem and potential solutions.
 
 I'm a Microsoft Windows user, so this guide will focus there. These ideas and general concepts can be applied to other systems though - i.e. bash script on linux?
-PowerShell is a preinstalled and very useful tool on Windows and that's the tool we'll mostly be using.
+PowerShell is a pre-installed and very useful tool on Windows and that's the tool we'll mostly be using.
 
 ### Chocolatey
 
