@@ -6,13 +6,13 @@ theme: "PaperMod"
 
 enableRobotsTXT: true
 
-# googleAnalytics: UA-123-45
+googleAnalytics: G-27G45QFJ9C
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Software Smith
-  description: "Welcome to my blog!"
-  keywords: [Blog, Portfolio, Programming]
+  description: "A programmer with a disdain for repetition."
+  keywords: [Blog, Portfolio, Programming, Automation]
   author: Smithy
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -23,7 +23,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -66,18 +66,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Do it once and do it right"
+    Content:  ...I doubt it will be quick though.
+              Spending a little time to think about the code you're about to write is the best way to not only do it once and do it right, 
+              but also to make sure it's in the best position for improving it later on.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/ssmithy"
     - name: linkedin
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/softwaresmithy/"
 
   # analytics:
   #   google:

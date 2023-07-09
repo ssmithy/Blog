@@ -21,7 +21,7 @@ ShowWordCount: false
 You knew this day would come eventually. Your last laptop or computer finally gave up the ghost. 
 Maybe that old hard disk drive span it's last spin. Maybe ~~you spilled coffee over it~~ you'd rather not tell.
 
-It matters not. Now you have the mamouth task of setting up a new environment.
+It matters not. Now you have the mammoth task of setting up a new environment.
 
 Do you type a few CLI commands and relax, with a coffee, across the room? Or do you spend the next 3 hours racking your brain and scouring the web for downloads, only then to be frantically clicking through installers?
 
