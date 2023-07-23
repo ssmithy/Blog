@@ -31,7 +31,15 @@ cover:
     # hidden: true # only hide on current single page
 ---
 
-
 ## Hello, World!
 
+
+### About me
+
 Hi! I'm a software developer from UK!
+
+I have over 15 years commercial experience writing and delivering software that's reduced company spend and increased efficiency. 
+My fortes are backend development and solution architecture.
+
+Websites, desktop applications, mobile apps. C#, Python, TypeScript. It's important to select the right tool for the job but it's also important to use the tools correctly.
+That's why I'm almost obsessed with continuously improving my development practices and patterns to build more scalable and extensible software.
