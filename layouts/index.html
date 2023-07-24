@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <article class="first-entry home-info">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{ .Content }}
+        {{ partial "social_icons.html" site.Params.socialIcons }}
+    </article>
+    <div>
+        <ul class="all-posts">
+        {{range .Site.RegularPages}}
+        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{end}}
+        </ul>
+
+    </div>
+  </main>
+{{ end }}
